@@ -6,7 +6,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
 
     if (email === 'siam@gmail.com' && password === 'siam') {
-        
+        window.location.href = 'bank.html';
+    }
+    else {
+        alert('Invalid');
     }
     
 });
